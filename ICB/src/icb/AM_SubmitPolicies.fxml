@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="496.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="icb.AM_SubmitPoliciesController">
+   <children>
+      <Button fx:id="backBtn" layoutX="40.0" layoutY="29.0" mnemonicParsing="false" onAction="#backBtnOnClick" text="back" />
+      <TextArea fx:id="policyTextArea" layoutX="71.0" layoutY="121.0" prefHeight="200.0" prefWidth="489.0" />
+      <Label layoutX="279.0" layoutY="78.0" text="POLICIES" />
+      <Button fx:id="submitBtn" layoutX="253.0" layoutY="344.0" mnemonicParsing="false" onAction="#submitBtnOnClick" text="SUBMIT" />
+      <Label fx:id="msgLabel" layoutX="94.0" layoutY="424.0" prefHeight="18.0" prefWidth="397.0" />
+   </children>
+</AnchorPane>

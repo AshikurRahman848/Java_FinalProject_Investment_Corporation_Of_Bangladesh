@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="icb.LogInController">
+   <children>
+      <TextField fx:id="useridTextfield" layoutX="207.0" layoutY="107.0" />
+      <TextField fx:id="PasswordTextfield" layoutX="207.0" layoutY="157.0" />
+      <Button fx:id="logInBtn" layoutX="232.0" layoutY="294.0" mnemonicParsing="false" onAction="#logInBtnOnClick" prefHeight="26.0" prefWidth="98.0" text="Log In" />
+      <Label layoutX="126.0" layoutY="111.0" text="User ID" />
+      <Label layoutX="120.0" layoutY="161.0" text="Password" />
+      <Button fx:id="backBtn" layoutX="74.0" layoutY="71.0" mnemonicParsing="false" onAction="#backBtnOnClick" text="back" />
+      <Label fx:id="showMessageLabel" layoutX="151.0" layoutY="379.0" />
+      <ComboBox fx:id="userTypeComboBox" layoutX="206.0" layoutY="214.0" prefWidth="150.0" />
+      <Label layoutX="120.0" layoutY="218.0" text="UserType" />
+   </children>
+</AnchorPane>

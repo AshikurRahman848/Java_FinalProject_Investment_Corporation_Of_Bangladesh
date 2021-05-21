@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="icb.AM_AddOwnweShipController">
+   <children>
+      <Button fx:id="backBtn" layoutX="37.0" layoutY="38.0" mnemonicParsing="false" onAction="#backBtnOnClick" text="back" />
+      <Label layoutX="87.0" layoutY="129.0" text="No of Share" />
+      <Label layoutX="87.0" layoutY="174.0" prefHeight="18.0" prefWidth="83.0" text="Percentage" />
+      <TextField fx:id="noOfSharetxt" layoutX="284.0" layoutY="125.0" />
+      <TextField fx:id="percentagetxt" layoutX="284.0" layoutY="170.0" />
+      <Button fx:id="addBtn" layoutX="447.0" layoutY="262.0" mnemonicParsing="false" onAction="#addBtnOnClick" prefHeight="26.0" prefWidth="55.0" text="ADD" />
+      <Label fx:id="msgLAbel" layoutX="161.0" layoutY="349.0" prefHeight="18.0" prefWidth="285.0" />
+      <Label layoutX="91.0" layoutY="82.0" prefHeight="18.0" prefWidth="139.0" text="Stakeholder Name" />
+      <TextField fx:id="nametxt" layoutX="284.0" layoutY="79.0" />
+
+   </children>
+</AnchorPane>

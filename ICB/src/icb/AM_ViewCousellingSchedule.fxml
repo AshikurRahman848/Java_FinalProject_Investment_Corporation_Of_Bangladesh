@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="icb.AM_ViewCousellingScheduleController">
+   <children>
+      <TableView fx:id="ownerShipTable" layoutX="138.0" layoutY="128.0" prefHeight="200.0" prefWidth="347.0">
+        <columns>
+          <TableColumn fx:id="CouncelorNameCol" prefWidth="108.79998779296875" text="Counselor Name" />
+          <TableColumn fx:id="investorcol" prefWidth="108.0" text="Investor Name" />
+            <TableColumn fx:id="dateCol" prefWidth="62.39996337890625" text="Date" />
+            <TableColumn fx:id="timecol" prefWidth="68.800048828125" text="Time" />
+        </columns>
+      </TableView>
+      <Button fx:id="backBtn" layoutX="34.0" layoutY="28.0" mnemonicParsing="false" onAction="#backBtnOnClick" text="back" />
+   </children>
+</AnchorPane>

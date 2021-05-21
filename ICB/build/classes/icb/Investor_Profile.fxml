@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="icb.Investor_ProfileController">
+   <children>
+      <Button fx:id="appointCounselorBtn" layoutX="250.0" layoutY="244.0" mnemonicParsing="false" onAction="#viewCounselorBtnOnClick" text="View Counselling Schedule" />
+      <Button fx:id="sendRequestBtn" layoutX="180.0" layoutY="172.0" mnemonicParsing="false" onAction="#sendRequestBtnOnClick" prefHeight="26.0" prefWidth="300.0" text="Send request to buy share stock" />
+      <Button fx:id="ownershipBtn" layoutX="231.0" layoutY="313.0" mnemonicParsing="false" onAction="#ownershipBtnOnClick" text="View the ownership pattern of ICB" />
+      <Button fx:id="CSEBtn" layoutX="440.0" layoutY="244.0" mnemonicParsing="false" onAction="#CSEBtnOnCLick" text="View basic info of CSE" />
+      <Button fx:id="DSEbtn" layoutX="79.0" layoutY="244.0" mnemonicParsing="false" onAction="#DSEbtnOnClick" text="View basic info of DSE" />
+      <Label layoutX="190.0" layoutY="77.0" prefHeight="46.0" prefWidth="238.0" text="           INVESTOR PROFILE" />
+   </children>
+</AnchorPane>

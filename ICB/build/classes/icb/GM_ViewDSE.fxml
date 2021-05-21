@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="icb.GM_ViewDSEController">
+   <children>
+      <TableView fx:id="DSEtable" layoutX="104.0" layoutY="109.0" prefHeight="200.0" prefWidth="467.0">
+         <columns>
+            <TableColumn fx:id="acCol" prefWidth="115.20001220703125" text="Authorized capital" />
+            <TableColumn fx:id="TCcol" prefWidth="117.60003662109375" text="Team Up capital" />
+            <TableColumn fx:id="faceCol" prefWidth="69.5999755859375" text="Face" />
+            <TableColumn fx:id="OScol" prefWidth="164.00006103515625" text="Outstanding Securities" />
+         </columns>
+      </TableView>
+      <Button fx:id="backBtn" layoutX="48.0" layoutY="47.0" mnemonicParsing="false" onAction="#backBtnOnClick" text="back" />
+   </children>
+</AnchorPane>
